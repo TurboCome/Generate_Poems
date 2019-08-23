@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/writepoem"
+    tools:context=".WritePoem">
+
+    <TextView
+        android:id="@+id/text_Poemtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text = "诗学含英"
+        android:textSize="35dp"
+        android:textColor="#938C9B"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button
+        android:id="@+id/button_five_jue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Poemtitle1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:text="五言绝句"
+        android:textColor="#800080"/>
+    <Button
+        android:id="@+id/button_seven_jue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Poemtitle1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="87dp"
+        android:text="七言绝句"
+        android:textColor="#800080"/>
+    <Button
+        android:id="@+id/button_five_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Poemtitle1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="182dp"
+        android:text="五言律诗"
+        android:textColor="#800080"/>
+    <Button
+        android:id="@+id/button_seven_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Poemtitle1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="267dp"
+        android:text="七言律诗"
+        android:textColor="#800080"/>
+
+    <EditText
+        android:id="@+id/edit_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_five_lv"
+        android:hint="请输入关键词"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#4169E1"/>
+
+    <TextView
+        android:id="@+id/poem_content1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/edit_label"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+    <TextView
+        android:id="@+id/poem_content8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/poem_content7"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize = "26dp"/>
+
+
+</RelativeLayout>

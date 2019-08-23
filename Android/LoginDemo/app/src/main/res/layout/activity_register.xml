@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/register"
+    tools:context=".Register">
+
+
+        <TextView
+            android:id="@+id/text_Poemtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text = "诗学含英"
+            android:textSize="35dp"
+            android:textColor="#938C9B"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/edit_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="账号"
+            android:textSize="20sp"
+            android:layout_below="@+id/text_Poemtitle2"
+            android:layout_marginTop="45dp"
+            android:drawableLeft="@mipmap/user"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_account"
+            android:hint="密码"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/lock"/>
+
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="昵称"
+            android:textSize="20sp"
+            android:layout_below="@+id/edit_password"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/emotion"/>
+
+
+
+        <EditText
+            android:id="@+id/edit_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_name"
+            android:hint="性别"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/xingbie"/>
+
+
+
+        <EditText
+            android:id="@+id/edit_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_sex"
+            android:hint="生日"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/shengri"/>
+
+        <Button
+            android:id="@+id/button_must_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_birth"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:text = "确认注册"
+            android:textColor="#f20c00"
+            android:textSize = "24sp"/>
+
+</RelativeLayout>
